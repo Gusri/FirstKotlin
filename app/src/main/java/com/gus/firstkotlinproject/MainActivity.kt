@@ -11,8 +11,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         sendButton.setOnClickListener({
-            var inputName = nameText.text
-            PreviewName.text = ("Hallo " +inputName+ " Thanks For Test My App!")
+            val inputName = nameText.text
+            PreviewName.text = ("Hallo $inputName Thanks For Test My App!")
         })
     }
 }
